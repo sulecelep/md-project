@@ -1,7 +1,7 @@
 <template>
   <div>
 
-    <q-markdown :plugins="plugins" :src="body" show-copy >
+    <q-markdown :plugins="plugins" :src="body" >
 
       
     </q-markdown>
