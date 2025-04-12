@@ -6,6 +6,7 @@ const routes: RouteRecordRaw[] = [
     component: () => import("layouts/MainLayout.vue"),
     children: [
       { path: "/deneme", component: () => import("pages/Deneme.vue") },
+      { path: "/", component: () => import("pages/MarkdownEditor.vue") },
       { path: "/markdown-editor", component: () => import("pages/MarkdownEditor.vue") },
       { path: "/text-editor", component: () => import("pages/TextEditor.vue") },
     ],

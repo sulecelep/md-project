@@ -12,10 +12,10 @@
         />
 
         <q-toolbar-title>
-          Quasar App
+          Markdown Editor
         </q-toolbar-title>
 
-        <div>Quasar v{{ $q.version }}</div>
+        <div></div>
       </q-toolbar>
     </q-header>
 
@@ -28,7 +28,7 @@
         <q-item-label
           header
         >
-          Essential Links
+          Hızlı Linkler
         </q-item-label>
 
         <EssentialLink
@@ -52,7 +52,7 @@ import EssentialLink, { type EssentialLinkProps } from 'components/EssentialLink
 const linksList: EssentialLinkProps[] = [
   {
     title: 'MarkdownEditor',
-    icon: 'school',
+    icon: 'format_indent_increase',
     link: '/markdown-editor'
   },
   {

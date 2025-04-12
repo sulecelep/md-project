@@ -1,6 +1,6 @@
 <template>
   <div class="q-pa-md">
-    <q-card>
+    <q-card class="no-shadow">
       <q-card-section>
         <div class="text-h6">Text Editor</div>
       </q-card-section>
